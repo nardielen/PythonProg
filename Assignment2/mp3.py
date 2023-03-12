@@ -2,7 +2,7 @@ from item import Item
 
 class MP3:
 
-    mp3 = Item
+    musc = Item
 
     duration = 0
     artist = ''
