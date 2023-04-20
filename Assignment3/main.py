@@ -140,11 +140,8 @@ def searchRecord():
 
     # search student from Students list
     if search == 'S':
-
-        stud = []
+        
         i = int(input('Enter index: '))
-        stud.append(i)
-
 
         print()
         print(f'{i} \t | {students[i].getType()} \t | {students[i].getName()} \t | {students[i].getID()} \t | {students[i].getYrCourseSec()} \t | {students[i].getAverage()}')
